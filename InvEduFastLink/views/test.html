@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+   
+<body>
+    <form name="fastlink" action="https://node.developer.yodlee.com/authenticate/restserver/" method="POST">
+        <input type="hidden" name="app" value="10003600" />
+        <input type="hidden" name="rsession" value="<%= rsession %>" />
+        <input type="hidden" name="token" value="<%= token %>" />
+        <input type="hidden" name="redirectReq" value="true" />
+    </form>
+</body>
+</html>
+<script type="text/javascript">
+    document.addEventListener("DOMContentLoaded", function(){
+        document.forms['fastlink'].submit();
+    });
+</script>
+

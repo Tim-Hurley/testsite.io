@@ -1,0 +1,9 @@
+﻿{
+  "method": "get",
+  "url": "https://developer.api.yodlee.com/ysl/user/accessTokens?appIds=10003600",
+  "headers": {
+    "Authorization": "cobSession= cobrand.data.session.cobSession,userSession= user.data.user.session.userSession",
+    "API-Version": "1.1",
+    "Cobrand-Name": "restserver"
+  }
+}

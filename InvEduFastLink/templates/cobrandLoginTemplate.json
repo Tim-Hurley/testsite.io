@@ -1,0 +1,15 @@
+﻿{
+  "method": "post",
+  "url": "https://developer.api.yodlee.com/ysl/cobrand/login",
+  "headers": {
+    "Content-Type": "application/json",
+    "API-Version": "1.1",
+    "Cobrand-Name": "restserver"
+  },
+  "data": {
+    "cobrand": {
+      "cobrandLogin": "sbCobtunde-invite-education",
+      "cobrandPassword": "9cc86349-09af-40ce-9f8f-10c578188649"
+    }
+  }
+}

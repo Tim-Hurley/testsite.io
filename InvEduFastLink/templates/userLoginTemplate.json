@@ -1,0 +1,17 @@
+﻿{
+  "method": "post",
+  "url": "https://developer.api.yodlee.com/ysl/user/login",
+  "headers": {
+    "Content-Type": "application/json",
+    "Authorization": "cobSession= cobrand.data.session.cobSession",
+    "Api-Version": "1.1",
+    "Cobrand-Name": "restserver"
+  },
+  "data": {
+    "user": {
+      "loginName": "sbMemtunde-invite-education1",
+      "password": "sbMemtunde-invite-education1#123",
+      "locale": "en_US"
+    }
+  }
+}
