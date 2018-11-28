@@ -89,6 +89,7 @@ ipch/
 *.vsp
 *.vspx
 *.sap
+*.sln
 
 # TFS 2012 Local Workspace
 $tf/
@@ -227,6 +228,7 @@ FakesAssemblies/
 
 # Node.js Tools for Visual Studio
 .ntvs_analysis.dat
+*.njsproj
 
 # Visual Studio 6 build log
 *.plg
